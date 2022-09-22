@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --main-green: #2A5B39;
+  --main-green-hover: #1B4227;
+  --light-gray: #F1F1F1;
+}
+
+html * {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+tr:hover {
+	background-color: var(--light-gray) !important;
+}
+
+input[type="radio"]:checked,
+.Skin label.q-radio.q-checked,
+.Skin label.q-radio.q-checked.q-focused {
+	background-color: var( --main-green) !important;
+	border-color:  var( --main-green) !important;
+}
+
+button,
+input[type=button],
+input[type=submit],
+input[type=reset],
+.Skin label.q-radio.q-checked,
+.Skin label.q-radio.q-checked.q-focused {
+	background-color: var( --main-green) !important;
+}
+
+button:hover,
+input[type=button]:hover,
+input[type=submit]:hover,
+input[type=reset]:hover,
+.Skin label.q-radio.q-checked:hover,
+.Skin label.q-radio.q-checked.q-focused:hover {
+	background-color: var( --main-green-hover) !important;
+}
